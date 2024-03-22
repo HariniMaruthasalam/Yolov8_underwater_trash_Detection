@@ -9,7 +9,7 @@ from ultralytics import YOLO
 import cv2
 import math
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
